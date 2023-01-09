@@ -1,0 +1,75 @@
+
+div.logo {
+	float:none;
+}
+
+div.logo img {
+	float: left;
+}
+
+div.logo p {
+	color:white;
+	font-size:40px;
+	margin:27px;
+	float:left;
+}
+
+.content-bottom-right > h3 > a {
+	color: white;
+}
+
+.content-bottom-right > h3 > a:hover {
+	color: #e44f2b;
+}
+
+
+/* Account header: view cart, View account, Sign in/out */
+.account_header {
+	float: right;
+	position: absolute;
+	right: 0px;
+	top  : 0px;
+	background: #ebebeb;
+}
+
+.account_header, .account_header * {
+	white-space: nowrap;
+}
+
+.account_header td:first-child {
+    content: '';
+    position: relative;
+    top: 15px;
+    right: 0px;
+    padding: 0px;
+    /*border-bottom: 20px solid #23272a;*/
+    border-bottom: 20px solid #460f03;
+    border-right: 20px solid #ebebeb;
+    width: 0;
+    float: left;
+}
+
+.account_header td:nth-child(2) {
+	padding-left: 0px;
+}
+
+.account_header td {
+	padding: 10px;
+}
+
+.account_header img {
+	width: 20px;
+	float: left;
+	padding-right: 10px;
+}
+
+.account_header * {
+	color: #5b5b5b;
+}
+/* End account header */
+
+
+.error {
+	color: red;
+	font-style: bold;
+}
